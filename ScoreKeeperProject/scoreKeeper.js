@@ -37,8 +37,9 @@ var commonMethods={
     },
 
     changeWinningScore : function() {
-       winningScore = input.value;
-       limit.textContent = input.value;
+        limit.textContent = input.value;
+       winningScore = Number(input.value);
+
     }
 
 };
@@ -71,7 +72,9 @@ button3.addEventListener("click", function(){
 })
 
 input.addEventListener("change", function() {
+    commonMethods.reset();
     commonMethods.changeWinningScore();
+
 })
 
 
