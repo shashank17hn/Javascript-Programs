@@ -29,6 +29,11 @@ h1 {
     text-transform: uppercase;
 }
 
+#banner{
+  display: inline-block;
+    width: 20%;
+}
+
 button{
     border: none;
     background: none;
@@ -39,3 +44,6 @@ button:hover{
     background-color: khaki;
 }
 
+.selected{
+    background-color: khaki;
+}
