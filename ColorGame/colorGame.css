@@ -16,6 +16,7 @@ h1 {
     background-color: khaki;
     margin: 0;
     line-height: 2;
+
 }
 
 .menu{
@@ -25,6 +26,7 @@ h1 {
 }
 #rgb{
     font-size: 200%;
+    text-transform: uppercase;
 }
 
 button{
